@@ -204,6 +204,10 @@
 	position: absolute;
 	top: 80px;
 	left: 620px;
+	transition:all 2s ease-in;
+}
+#botom-line:hover{
+	width: 100px;
 }
 #smal-words{
 	color: #fff;
@@ -226,10 +230,23 @@ select{
 	font-size: 12px;
 	color: #a7a7a7;
 }
+
 .selects{
 	position: absolute;
 	top: 167px;
-	left: 285px;
+	left: 164px;
+}
+.selects a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #bf4e48;
+	font-size: 16px;
+	letter-spacing: 1em;
+	width: 234px;
+	height: 37px;
+	line-height: 35px;
+	text-align: center;
 }
 .picture-exhibit{
 	background-color: #f7f7f7;
